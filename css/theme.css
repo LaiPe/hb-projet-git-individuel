@@ -1,0 +1,29 @@
+:root {
+    --couleur-fond-clair: #ececed;
+    --couleur-fond-fonce: #353b57;
+    --couleur-accents-clair: #91afc7;
+    --couleur-accents-fonce: #9d949c;
+    --couleur-main: #1f5d96;
+}
+
+.logo {
+    cursor: default;
+    user-select: none;
+
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    font-family: "Monserrat", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+.logo h2 {
+    font-size: 1.5em;
+}
