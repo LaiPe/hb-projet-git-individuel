@@ -16,7 +16,7 @@ header nav ul {
     column-gap: 2rem;
 
     position: relative;
-    top: 20px;
+    top: 25px;
 }
 header nav ul a {
     color: inherit;
