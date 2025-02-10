@@ -149,3 +149,21 @@ main section h1 {
     margin-bottom: 1rem;
     color: var(--couleur-fond-fonce);
 }
+
+footer {
+    background-color: var(--couleur-fond-fonce);
+    padding: 1rem;
+}
+footer address {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+footer a img{
+    width: 45px;
+    filter: invert(0.95);
+}
+footer a {
+    color: var(--couleur-fond-clair);
+}
