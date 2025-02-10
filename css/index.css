@@ -1,5 +1,5 @@
 header {
-    height: 90px;
+    height: var(--height-header);
     position: sticky;
     top: 0;
 
@@ -29,4 +29,29 @@ header nav ul a {
 
 header nav ul a:hover {
     text-decoration: underline;
+}
+
+
+
+#accueil {
+    height: calc(100vh - var(--height-header));
+
+    background-color: var(--couleur-fond-clair);
+    color: var(--couleur-main);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Monserrat", Arial, Helvetica, sans-serif;
+}
+
+#accueil h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+#accueil h2 {
+    font-family: "Overpass Mono", 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
 }
