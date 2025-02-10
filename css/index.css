@@ -176,6 +176,14 @@ footer a {
 
 
 @media all and (max-width: 900px) {
+    header {
+        padding: 0 2rem;
+    }
+    main section {
+        padding: 2rem;
+    }
+
+
     header nav .input-activ-sub-nav ~ ul{
         display: none;
     
