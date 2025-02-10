@@ -55,3 +55,72 @@ header nav ul a:hover {
     font-family: "Overpass Mono", 'Courier New', Courier, monospace;
     font-size: 1.3rem;
 }
+
+
+
+
+
+main section {
+    padding: 2rem 3rem;
+}
+
+main section h1 {
+    font-family: "Monserrat", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+#projets {
+    background-color: var(--couleur-accents-clair);
+}
+
+#projets h1 {
+    color: var(--couleur-fond-clair);
+}
+
+#projets .container {
+    margin: 2rem 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+#projets .card {
+    background-color: var(--couleur-fond-fonce);
+    color: var(--couleur-fond-clair);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 350px;
+
+    font-family: "Monserrat", Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#projets .card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+#projets .card p {
+    font-size: 0.9rem;
+}
+#projets .card a {
+    background-color: var(--couleur-accents-fonce);
+    color: var(--couleur-fond-fonce);
+    text-decoration: none;
+    width: fit-content;
+    margin: 0.8rem 0 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+    transition: box-shadow 0.5s ease;
+}
+#projets .card a:hover {
+    box-shadow:  10px 10px 20px rgba(149, 141, 148, 0.2),
+             -10px -10px 20px rgba(165, 155, 164, 0.2);   
+}
