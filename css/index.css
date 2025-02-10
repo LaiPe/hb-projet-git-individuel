@@ -135,3 +135,17 @@ main section h1 {
     box-shadow:  10px 10px 20px rgba(149, 141, 148, 0.2),
              -10px -10px 20px rgba(165, 155, 164, 0.2);   
 }
+
+
+
+
+#presentation h1 {
+    color: var(--couleur-main);
+    margin-bottom: 1.5rem;
+}
+
+#presentation p {
+    font-family: "Monserrat", Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    color: var(--couleur-fond-fonce);
+}
